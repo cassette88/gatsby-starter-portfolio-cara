@@ -158,7 +158,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Space
           </BigTitle>
           <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
         </Hero>
@@ -174,11 +174,11 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
-              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+              title="Military News"
+              link="https://www.militarynews.info/"
+              bg="linear-gradient(to right, #E0162B 50%,#fff 55%, #0052A5 60%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              Built with Node.js and React.js. 
             </ProjectCard>
             <ProjectCard
               title="Harry Potter"
@@ -188,18 +188,18 @@ const Index = () => (
               I entered the DOCMA 2017 award with this Harry Potter inspired image.
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+              title="Tennis"
+              link="http://www.vintagetennis.online/"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+             A wall of the latest tennis related news. Built with Node.js and React.js.
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="Mood Board"
+              link="http://mood-board.herokuapp.com/"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              Can 4 random images tell you about your future? Made with Node.js, Unsplash API, and React.js
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
